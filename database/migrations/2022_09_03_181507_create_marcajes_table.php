@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('marcajes', function (Blueprint $table) {
+      /*  Schema::create('marcajes', function (Blueprint $table) {
             $table->id('marcajeId');
             $table->date('fecha');
             $table->dateTime('entrada');
@@ -22,7 +22,7 @@ return new class extends Migration
             $table->foreignId('users')->constrained();
             $table->timestamps();
         });
-    }
+    */    }
 
     /**
      * Reverse the migrations.
